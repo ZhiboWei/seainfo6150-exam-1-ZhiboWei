@@ -9,6 +9,61 @@
       <h1>Question 10. Duplicate your form from question 9 below.</h1>
       <p>This time, give it a submit button and the ability to submit its data to this file (question-10.html) via the appropriate action and method.</p>
       <p>We talked about forms in week 3. For full credit, your inputs should all be named appropriately so that I can validate the submitted data.</p>
+      <form action="question-10.html">
+        <fieldset>
+          <legend>Name</legend>
+          <label for="nameinput">
+            First Name
+            <input type="text" id="firstnameinput" name="NameInput" value="">
+          </label>
+
+          <label for="nameinput">
+            Last Name
+            <input type="text" id="lastnameinput" name="NameInput" value="">
+          </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Question 1</legend>
+            <label for="radio-input">
+            Are you a Northeastern Student?
+            <label for="radio1val1">
+              <input type="radio" id="radio1val1" name="radio 1" value="1"> Yes
+            </label>
+            <label for="radio1val2">
+              <input type="radio" id="radio1val2" name="radio 1" value="2"> No
+            </label>
+        </fieldset>
+  
+        <fieldset>
+            <legend>Question 2</legend>
+            <label for="radio-input">
+            Your favorite HTML header (select one)
+            <label for="radio1val1">
+              <input type="radio" id="radio1val1" name="radio 1" value="1"> h1
+            </label>
+            <label for="radio1val2">
+              <input type="radio" id="radio1val2" name="radio 1" value="2"> h2
+            </label>
+            <label for="radio1val3">
+              <input type="radio" id="radio1val3" name="radio 1" value="3"> h3
+            </label>
+            <label for="radio1val4">
+              <input type="radio" id="radio1val4" name="radio 1" value="4"> h4
+            </label>
+            <label for="radio1val5">
+              <input type="radio" id="radio1val5" name="radio 1" value="5"> h5
+            </label>
+            <label for="radio1val6">
+              <input type="radio" id="radio1val6" name="radio 1" value="6"> h6
+            </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Submit</legend>
+          <input type="submit" value="Submit">
+        </fieldset>
+        </form>
     </main>
   </body>
 </html>
